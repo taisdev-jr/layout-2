@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout Header e Main</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        font-family: serif;
+        color: white;
+        text-align: center;
+      }
+      header {
+        background-color: #007bff;
+        padding: 20px;
+        font-size: 1.2rem;
+      }
+      main {
+        background-color: #000080;
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>HEADER</header>
+    <main>MAIN</main>
+  </body>
+</html>
